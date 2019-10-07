@@ -94,46 +94,46 @@
 ## 2.2. Интерфейс пользователя
 
 + Меню приложения  
-![menu](docs/mockups/menu.png)
+![menu](../mockups/menu.png)
 
 + Экран с расписанием   
-![schedule_main](docs/mockups/schedule_main.png)
+![schedule_main](../mockups/schedule_main.png)
 
 + Экран добавления нового предмета в расписание  
-![schedule_change_lesson](docs/mockups/schedule_change_lesson.png)
+![schedule_change_lesson](../mockups/schedule_change_lesson.png)
 
 + Экран с домашними заданиями  
-![homework_window](docs/mockups/homework_window.png)
+![homework_window](../mockups/homework_window.png)
 
 + Экран добавления домашнего задания #1  
-![window_add_homework__1](docs/mockups/window_add_homework__1.png)
+![window_add_homework__1](../mockups/window_add_homework__1.png)
 
 + Экран добавления домашнего задания #2  
-![window_add_homework__2](docs/mockups/window_add_homework__2.png)
+![window_add_homework__2](../mockups/window_add_homework__2.png)
 
 + Экран изменения или удаления домашнего задания  
-![window_change_homework](docs/mockups/window_change_homework.png)
+![window_change_homework](../mockups/window_change_homework.png)
 
 + Экран заметок  
-![window_notes](docs/mockups/window_notes.png)
+![window_notes](../mockups/window_notes.png)
 
 + Экран создания заметки #1  
-![create_note__1](docs/mockups/create_note__1.png)
+![create_note__1](../mockups/create_note__1.png)
 
 + Экран создания заметки #2  
-![create_note__2](docs/mockups/create_note__2.png)
+![create_note__2](../mockups/create_note__2.png)
 
 + Экран событий  
-![events](docs/mockups/events.png)
+![events](../mockups/events.png)
 
 + Экран добавления нового события  
-![add_new_event](docs/mockups/add_new_event.png)
+![add_new_event](../mockups/add_new_event.png)
 
 + Экран добавления времени напоминаний для события #1  
-![choose_hours](docs/mockups/choose_hours.png)
+![choose_hours](../mockups/choose_hours.png)
 
 + Экран добавления времени напоминаний для события #2  
-![choose_minutes](docs/mockups/choose_minutes.png)
+![choose_minutes](../mockups/choose_minutes.png)
 
 
 
