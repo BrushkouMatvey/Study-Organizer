@@ -78,8 +78,6 @@
 
 ---
 
-
-
 <a name="users_requirements"/>
 
 # 2. Пользовательские требования
@@ -97,7 +95,7 @@
 |Описание| Mockup  |
 |---|---|
 |Экран авторизации|![autorization](../mockups/autorization.png)|
-|Экран регестрации|![registration](../mockups/registration.png)|
+|Экран регистрации|![registration](../mockups/registration.png)|
 |Меню приложения|![menu](../mockups/menu.png)|
 |Экран с расписанием|![schedule_main](../mockups/schedule_main.png)|
 |Экран добавления нового предмета в расписание|![schedule_change_lesson](../mockups/schedule_change_lesson.png)|
