@@ -92,50 +92,24 @@
 <a name="user_interface"/> 
 
 ## 2.2. Интерфейс пользователя
+Графический интерфейс пользователя представлен в виде mock-up иллюстраций.
 
-+ Меню приложения  
-![menu](../mockups/menu.png)
-
-+ Экран с расписанием   
-![schedule_main](../mockups/schedule_main.png)
-
-+ Экран добавления нового предмета в расписание  
-![schedule_change_lesson](../mockups/schedule_change_lesson.png)
-
-+ Экран с домашними заданиями  
-![homework_window](../mockups/homework_window.png)
-
-+ Экран добавления домашнего задания #1  
-![window_add_homework__1](../mockups/window_add_homework__1.png)
-
-+ Экран добавления домашнего задания #2  
-![window_add_homework__2](../mockups/window_add_homework__2.png)
-
-+ Экран изменения или удаления домашнего задания  
-![window_change_homework](../mockups/window_change_homework.png)
-
-+ Экран заметок  
-![window_notes](../mockups/window_notes.png)
-
-+ Экран создания заметки #1  
-![create_note__1](../mockups/create_note__1.png)
-
-+ Экран создания заметки #2  
-![create_note__2](../mockups/create_note__2.png)
-
-+ Экран событий  
-![events](../mockups/events.png)
-
-+ Экран добавления нового события  
-![add_new_event](../mockups/add_new_event.png)
-
-+ Экран добавления времени напоминаний для события #1  
-![choose_hours](../mockups/choose_hours.png)
-
-+ Экран добавления времени напоминаний для события #2  
-![choose_minutes](../mockups/choose_minutes.png)
-
-
+|Описание| Mockup  |
+|---|---|
+|Меню приложения|![menu](../mockups/menu.png)|
+|Экран с расписанием|![schedule_main](../mockups/schedule_main.png)|
+|Экран добавления нового предмета в расписание|![schedule_change_lesson](../mockups/schedule_change_lesson.png)|
+|Экран с домашними заданиями|![homework_window](../mockups/homework_window.png)|
+|Экран добавления домашнего задания #1|![window_add_homework__1](../mockups/window_add_homework__1.png)|
+|Экран добавления домашнего задания #2|![window_add_homework__2](../mockups/window_add_homework__2.png)|
+|Экран изменения или удаления домашнего задания|![window_change_homework](../mockups/window_change_homework.png)|
+|Экран заметок|![window_notes](../mockups/window_notes.png)|
+|Экран создания заметки #1| ![create_note__1](../mockups/create_note__1.png)|
+|Экран создания заметки #2|![create_note__2](../mockups/create_note__2.png)|
+|Экран событий|![events](../mockups/events.png)|
+|Экран добавления нового события|![add_new_event](../mockups/add_new_event.png)|
+|Экран добавления времени напоминаний для события #1|![choose_hours](../mockups/choose_hours.png)|
+|Экран добавления времени напоминаний для события #2|![choose_minutes](../mockups/choose_minutes.png)|
 
  
 
@@ -150,6 +124,8 @@
 <a name="application_audience"/> 
 
 ### 2.3.2. Аудитория приложения 
++ Люди, которые хотят успешно организовывать свой день.
++ Школьники и студенты, которые смогут хранить все свои заметки и домашние задания в одном месте.
 
 ---
 
