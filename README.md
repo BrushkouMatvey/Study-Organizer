@@ -10,5 +10,5 @@
 ## Содержание
 
 1. [Документация](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/docs)  
-1.2 [Спецификация требований](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Requirements/Requirements.md) 
+1.1 [Спецификация требований](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Requirements/Requirements.md) 
 1. [Исходный код]()
