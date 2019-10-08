@@ -82,7 +82,7 @@
 <a name="software_interfaces"> 
 
 ## 2.1. Программные интерфейсы 
-Проект «Study Organizer» использует API Xamarin.Forms и API Xamarin.Android.
+При разработке проекта «Study Organizer» используются API Xamarin.Forms и API Xamarin.Android.
 
 <a name="user_interface"> 
 
