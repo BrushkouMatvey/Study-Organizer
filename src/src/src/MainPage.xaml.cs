@@ -17,5 +17,10 @@ namespace src
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender , EventArgs e)
+        {
+            Button.TextColor = Color.Azure;
+        }
     }
 }

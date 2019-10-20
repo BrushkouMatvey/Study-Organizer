@@ -6,10 +6,13 @@
              mc:Ignorable="d"
              x:Class="src.MainPage">
 
-    <StackLayout>
-        <Label Text="Welcome to Xamarin.Forms!"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+    <RelativeLayout>
+        <BoxView WidthRequest="100" HeightRequest="100" Color="Blue"
+            RelativeLayout.XConstraint= "{ConstraintExpression 
+                Type=RelativeToParent, 
+                Property=Width,
+                Factor=0.5, 
+                Constant=-50}"  
+        />
+    </RelativeLayout>
 </ContentPage>

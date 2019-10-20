@@ -11,14 +11,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;1.2.5. [Предположения и зависимости](#assumptions_and_dependencies)   
 1.3 [Аналоги](#analogues)
 
-1. [Пользовательские требования](#users_requirements)   
+2. [Пользовательские требования](#users_requirements)   
 2.1. [Программные интерфейсы](#software_interfaces)  
 2.2. [Интерфейс пользователя](#user_interface)  
 2.3. [Характеристики пользователей](#user_characteristics)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.1. [Классы пользователей](#user_classes)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [Аудитория приложения](#application_audience)   
 
-1. [Системные требования](#system_requirements)   
+3. [Системные требования](#system_requirements)   
 3.1. [Функциональные требования](#functional_requirements)    
 3.2. [Нефункциональные требования](#non-functional_requirements)   
 &nbsp;&nbsp;&nbsp;&nbsp;3.2.1. [Атрибуты качества](#quality_attributes)  
