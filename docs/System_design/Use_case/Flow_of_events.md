@@ -63,19 +63,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;2.15.1. [Краткое описание](#short_description_15)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.15.2. [Предусловие](#precondition_15)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.15.3. [Основной поток события](#main_stream_of_events_15)<br>     
-2.16.  [Редактировать расписание](#edit_schedule)    
+2.16.  [Удалить предмет из расписания](#edit_schedule)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.16.1. [Краткое описание](#short_description_16)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.16.2. [Предусловие](#precondition_16)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.16.3. [Основной поток события](#main_stream_of_events_16) <br>    
-2.17.  [Редактировать домашнее задание](#edit_homework)   
+2.17.  [Удалить домашнее задание](#edit_homework)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.17.1. [Краткое описание](#short_description_17)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.17.2. [Предусловие](#precondition_17)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.17.3. [Основной поток события](#main_stream_of_events_17)<br>     
-2.18.  [Редактировать событие](#edit_event)  
+2.18.  [Удалить событие](#edit_event)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.18.1. [Краткое описание](#short_description_18)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.18.2. [Предусловие](#precondition_18)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.18.3. [Основной поток события](#main_stream_of_events_18)<br>    
-2.19.  [Редактировать заметку](#edit_note)   
+2.19.  [Удалить заметку](#edit_note)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.19.1. [Краткое описание](#short_description_19)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.19.2. [Предусловие](#precondition_19)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.19.3. [Основной поток события](#main_stream_of_events_19) 
@@ -546,7 +546,7 @@
 
 <a name="delete_note"> 
 
-## 2.19.  Редактировать заметку  
+## 2.19.  Удалить заметку  
 
 <a name="short_description_19">  
 
