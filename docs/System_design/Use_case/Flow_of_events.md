@@ -6,63 +6,64 @@
 2.1. [Зарегистрироваться](#sign_up)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.1.1. [Краткое описание](#short_description_1)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.1.2. [Основной поток событий](#main_stream_of_events_1)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.1.3. [Альтернативный поток событий](#alternative_stream_of_events_1)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.1.3. [Альтернативный поток событий](#alternative_stream_of_events_1) <br>  
 2.2. [Войти в учётную запись](#log_in)      
 &nbsp;&nbsp;&nbsp;&nbsp;2.2.1. [Краткое описание](#short_description_2)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.2.2. [Основной поток событий](#main_stream_of_events_2)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.2.3. [Альтернативный поток событий](#alternative_stream_of_events_2)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.2.3. [Альтернативный поток событий](#alternative_stream_of_events_2)  <br>   
 2.3. [Выйти из учётной записи](#log_out)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.1. [Краткое описание](#short_description_3)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.3.2. [Основной поток событий](#main_stream_of_events_3)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [Альтернативный поток событий](#alternative_stream_of_events_3)      
+&nbsp;&nbsp;&nbsp;&nbsp;2.3.3. [Альтернативный поток событий](#alternative_stream_of_events_3) <br>      
 2.4. [Просмотреть расписание](#view_schedule)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.4.1. [Краткое описание](#short_description_4)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.4.2. [Основной поток событий](#main_stream_of_events_4)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.4.3. [Альтернативный поток событий](#alternative_stream_of_events_4)       
+&nbsp;&nbsp;&nbsp;&nbsp;2.4.3. [Альтернативный поток событий](#alternative_stream_of_events_4) <br>       
 2.5. [Просмотреть домашнее задание](#view_homework)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.5.1. [Краткое описание](#short_description_5)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.5.2. [Основной поток событий](#main_stream_of_events_5)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.5.3. [Альтернативный поток событий](#alternative_stream_of_events_5)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.5.3. [Альтернативный поток событий](#alternative_stream_of_events_5) <br>  
 2.6.  [Просмотреть событие](#view_event)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.6.1. [Краткое описание](#short_description_6)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.6.2. [Основной поток событий](#main_stream_of_events_6)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.6.3. [Альтернативный поток событий](#alternative_stream_of_events_6)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.6.3. [Альтернативный поток событий](#alternative_stream_of_events_6)<br>   
 2.7. [Просмотреть заметку](#view_note)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.7.1. [Краткое описание](#short_description_7)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.7.2. [Основной поток событий](#main_stream_of_events_7)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.7.3. [Альтернативный поток событий](#alternative_stream_of_events_7)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.7.3. [Альтернативный поток событий](#alternative_stream_of_events_7) <br>  
 2.8. [Добавить предмет в расписание](#add_schedule_item)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.8.1. [Краткое описание](#short_description_8)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.8.2. [Основной поток событий](#main_stream_of_events_8)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.8.3. [Альтернативный поток событий](#alternative_stream_of_events_8)  
-2.9. [Добавить заметку](#edd_note)   
+&nbsp;&nbsp;&nbsp;&nbsp;2.8.3. [Альтернативный поток событий](#alternative_stream_of_events_8) <br>  
+2.9. [Добавить заметку](#edd_note)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.9.1. [Краткое описание](#short_description_9)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.9.2. [Основной поток событий](#main_stream_of_events_9)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.9.3. [Альтернативный поток событий](#alternative_stream_of_events_9)   
+&nbsp;&nbsp;&nbsp;&nbsp;2.9.3. [Альтернативный поток событий](#alternative_stream_of_events_9)  <br>  
 2.10.  [Добавить событие](#add_event)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.10.1. [Краткое описание](#short_description_10)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.10.2. [Основной поток событий](#main_stream_of_events_10)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.10.3. [Альтернативный поток событий](#alternative_stream_of_events_10)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.10.3. [Альтернативный поток событий](#alternative_stream_of_events_10)  <br>   
 2.11.  [Добавить домашнее задание](#add_homework)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.11.1. [Краткое описание](#short_description_11)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.11.2. [Основной поток событий](#main_stream_of_events_11)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.11.3. [Альтернативный поток событий](#alternative_stream_of_events_11)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.11.3. [Альтернативный поток событий](#alternative_stream_of_events_11) <br>  
 2.12.  [Редактировать расписание](#edit_schedule)    
 &nbsp;&nbsp;&nbsp;&nbsp;2.12.1. [Краткое описание](#short_description_12)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.12.2. [Основной поток событий](#main_stream_of_events_12)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.12.3. [Альтернативный поток событий](#alternative_stream_of_events_12)   
+&nbsp;&nbsp;&nbsp;&nbsp;2.12.3. [Альтернативный поток событий](#alternative_stream_of_events_12) <br>   
 2.13.  [Редактировать домашнее задание](#edit_homework)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.13.1. [Краткое описание](#short_description_13)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.13.2. [Основной поток событий](#main_stream_of_events_13)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.13.3. [Альтернативный поток событий](#alternative_stream_of_events_13)    
+&nbsp;&nbsp;&nbsp;&nbsp;2.13.3. [Альтернативный поток событий](#alternative_stream_of_events_13)<br>     
 2.14.  [Редактировать событие](#edit_event)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.14.1. [Краткое описание](#short_description_14)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.14.2. [Основной поток событий](#main_stream_of_events_14)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.14.3. [Альтернативный поток событий](#alternative_stream_of_events_14)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.14.3. [Альтернативный поток событий](#alternative_stream_of_events_14) <br>  
 2.15.  [Редактировать заметку](#edit_note)   
 &nbsp;&nbsp;&nbsp;&nbsp;2.15.1. [Краткое описание](#short_description_15)  
 &nbsp;&nbsp;&nbsp;&nbsp;2.15.2. [Основной поток событий](#main_stream_of_events_15)  
-&nbsp;&nbsp;&nbsp;&nbsp;2.15.3. [Альтернативный поток событий](#alternative_stream_of_events_15)  
+&nbsp;&nbsp;&nbsp;&nbsp;2.15.3. [Альтернативный поток событий](#alternative_stream_of_events_15)
+--- 
 
 
 <a name="actors"> 
