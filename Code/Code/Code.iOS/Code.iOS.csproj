@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D16709CB-D393-4A81-865E-AD098A364BF4}</ProjectGuid>
+    <ProjectGuid>{F6B71EFC-345B-4263-A4A7-6D2DF1F564B5}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>src.iOS</RootNamespace>
+    <RootNamespace>Code.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>src.iOS</AssemblyName>
+    <AssemblyName>Code.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -125,9 +125,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\src\src.csproj">
-      <Project>{CD0F5085-F069-4BF9-BC25-6ADB8B52DFD3}</Project>
-      <Name>src</Name>
+    <ProjectReference Include="..\Code\Code.csproj">
+      <Project>{BFC1B8B0-587D-4EEB-A8AD-5A3E3A9C15A9}</Project>
+      <Name>Code</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

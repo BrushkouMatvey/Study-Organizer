@@ -4,15 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="src.MainPage">
+             x:Class="Code.MainPage">
 
-    <RelativeLayout>
-        <BoxView WidthRequest="100" HeightRequest="100" Color="Blue"
-            RelativeLayout.XConstraint= "{ConstraintExpression 
-                Type=RelativeToParent, 
-                Property=Width,
-                Factor=0.5, 
-                Constant=-50}"  
-        />
-    </RelativeLayout>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to my Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
 </ContentPage>
