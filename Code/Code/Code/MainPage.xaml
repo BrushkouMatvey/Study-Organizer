@@ -1,16 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="Code.MainPage">
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:Code"
+       x:Class="Code.MainPage"
+       Title="SO">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to my Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="HeaderColor">#5dbf63</Color>
+        </ResourceDictionary>
+    </Shell.Resources>
 
-</ContentPage>
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="{StaticResource HeaderColor}"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="xamarinstore.jpg"
+                   Opacity="0.6" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Schedule" Icon="schedule_item.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Schedule}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Events" Icon="event_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Events}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Note" Icon="notes_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Notes}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Homework" Icon="homework_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Homework}" />
+    </FlyoutItem>
+</Shell>

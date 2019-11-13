@@ -6,6 +6,11 @@
              mc:Ignorable="d"
              x:Class="Code.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Color x:Key="PageBackgroundColor">Yellow</Color>
+            <Color x:Key="HeadingTextColor">Black</Color>
+            <Color x:Key="NormalTextColor">Blue</Color>
+            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
