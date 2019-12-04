@@ -12,4 +12,7 @@
 1. [Документация](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/docs)  
 1.1 [Спецификация требований](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Requirements/Requirements.md)   
 1.2 [Проектирование системы](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/docs/System_design)   
-1. [Исходный код](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/src/src)
+2. [Исходный код](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/src/src)
+3. [Тестирование]()
+3.1 [План тестирования](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Requirements/Requirements.md)   
+3.2 [Проектирование системы](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/docs/System_design) 
