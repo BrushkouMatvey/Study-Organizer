@@ -15,4 +15,4 @@
 2. [Исходный код](https://github.com/BrushkouMatvey/Study-Organizer/tree/master/src/src)
 3. [Тестирование]()  
 3.1 [План тестирования](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Testing/Test%20plan.md)       
-3.2 [Проектирование системы](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Testing/Test%20result.md) 
+3.2 [Результаты тестирования](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Testing/Test%20result.md) 
