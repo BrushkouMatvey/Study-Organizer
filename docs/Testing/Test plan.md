@@ -70,7 +70,7 @@
 
 # 6. Представление результатов  
 
-Результаты тестирования представлены в документе "Test result".
+Результаты тестирования представлены в документе [Test result](https://github.com/BrushkouMatvey/Study-Organizer/blob/master/docs/Testing/Test%20result.md).
 
 
 <a name="conclusions"> 
