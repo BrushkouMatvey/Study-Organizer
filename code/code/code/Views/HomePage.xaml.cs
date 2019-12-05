@@ -23,7 +23,7 @@ namespace code.Views
         }
         private async void MenuItem_OnClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Quit", "You want Quit", "OK");
+            await App.Current.MainPage.Navigation.PopToRootAsync();
             Application.Current.Quit();
         }
     }

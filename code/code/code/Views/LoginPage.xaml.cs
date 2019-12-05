@@ -88,7 +88,7 @@ namespace code.Views
                 if (validData)
                 {
                     popupLoadingView.IsVisible = false;
-                    await App.NavigatiPageAsync(loginPage);
+                    await App.Current.MainPage.Navigation.PushAsync(new HomePage());
                 }
                 else
                 {
