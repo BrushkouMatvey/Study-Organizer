@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,6 +26,20 @@ namespace code.Views
             userNameEntry.ReturnCommand = new Command(() => passwordEntry.Focus());
             passwordEntry.ReturnCommand = new Command(() => confirmpasswordEntry.Focus());
             confirmpasswordEntry.ReturnCommand = new Command(() => phoneEntry.Focus());
+        }
+
+        public bool IsValid(string emailaddress)
+        {
+            try
+            {
+                MailAddress m = new MailAddress(emailaddress);
+
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
         }
         private async void SignupValidation_ButtonClicked(object sender, EventArgs e)
         {
@@ -50,7 +65,7 @@ namespace code.Views
                 phoneWarLabel.TextColor = Color.IndianRed;
                 phoneWarLabel.IsVisible = true;
             }
-            else
+            else if(IsValid(emailEntry.Text))
             {
                 users.name = emailEntry.Text;
                 users.userName = userNameEntry.Text;
@@ -62,17 +77,12 @@ namespace code.Views
                     if (retrunvalue == "Sucessfully Added")
                     {
                         await DisplayAlert("User Add", retrunvalue, "OK");
-                        await Navigation.PushAsync(new LoginPage());
+                        await Navigation.PushAsync(new MainPage());
                     }
                     else
                     {
+
                         await DisplayAlert("User Add", retrunvalue, "OK");
-                        warningLabel.IsVisible = false;
-                        emailEntry.Text = string.Empty;
-                        userNameEntry.Text = string.Empty;
-                        passwordEntry.Text = string.Empty;
-                        confirmpasswordEntry.Text = string.Empty;
-                        phoneEntry.Text = string.Empty;
                     }
                 }
                 catch (Exception ex)
@@ -80,10 +90,17 @@ namespace code.Views
                     Debug.WriteLine(ex);
                 }
             }
+            else
+            {
+                emailEntry.Text = string.Empty;
+                emailWarLabel.Text = "Enter correct email";
+                emailWarLabel.TextColor = Color.IndianRed;
+                emailWarLabel.IsVisible = true;
+            }
         }
         private async void login_ClickedEvent(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            await Navigation.PushAsync(new MainPage());
         }
     }
 }
