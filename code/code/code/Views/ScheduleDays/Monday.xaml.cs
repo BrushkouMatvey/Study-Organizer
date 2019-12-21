@@ -8,27 +8,28 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace code.Views.DetailViews
+namespace code.Views.ScheduleDays
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Notes : ContentPage
+    public partial class Monday : ContentPage
     {
-        public Notes()
+        public Monday()
         {
             InitializeComponent();
         }
-        protected override  void OnAppearing()
+
+        protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            listView.ItemsSource =  App.NoteDb.GetNotes();
+            listView.ItemsSource = App.ScheduleDb.GetLessons();
         }
 
         async void OnNoteAddedClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new EntryNote
+            await Navigation.PushAsync(new EntryLesson
             {
-                BindingContext = new Note()
+                BindingContext = new Lesson()
             });
         }
 
@@ -36,7 +37,7 @@ namespace code.Views.DetailViews
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new EntryNote
+                await Navigation.PushAsync(new EntryLesson
                 {
                     BindingContext = e.SelectedItem as Note
                 });

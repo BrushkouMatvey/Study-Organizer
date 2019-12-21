@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace code.Views.DetailViews
+namespace code.Controls
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Schedule : TabbedPage
+    public partial class EmptyView : ContentView
     {
-        public Schedule()
+        public EmptyView()
         {
             InitializeComponent();
         }

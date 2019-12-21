@@ -1,16 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:days="clr-namespace:code.Views.ScheduleDays"
              mc:Ignorable="d"
-             Title="Schedule"
+             Title="Расписание"
              x:Class="code.Views.DetailViews.Schedule">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Schedule"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+
+    <NavigationPage Title="Monday" IconImageSource="open_book.png">
+        <x:Arguments>
+            <days:Monday/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Tuesday" IconImageSource="open_book.png">
+        <x:Arguments>
+            <days:Tuesday/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Wednesday" IconImageSource="open_book.png">
+        <x:Arguments>
+            <days:Wednesday/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Thursday" IconImageSource="open_book.png">
+        <x:Arguments>
+            <days:Thursday/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Friday" IconImageSource="open_book.png">
+        <x:Arguments>
+            <days:Friday/>
+        </x:Arguments>
+    </NavigationPage>
+    
+    
+</TabbedPage>
